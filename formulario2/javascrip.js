@@ -1,8 +1,8 @@
 function validaCpf(){
     var cpf = document.getElementById("cpf").value;
-        cpfSoNumeros = cpf.replace('-', '').replace('-', '').replace('-', '');
-        novePrimeirosNumeroCpf = cpfSonumeros.substr(0, 9);
-        dezPrimeirosNumeros = cpfSonumeros.substr(0, 10);
+        cpfSoNumeros = cpf.replace('-', '').replace('-', '').replace('-', '').
+        novePrimeirosNumeroCpf = cpfSonumeros.substr(0, 9).
+        dezPrimeirosNumeros = cpfSonumeros.substr(0, 10).
         somaDosNovesPrimeirosNumeros = 0;
         somaDosDezPrimeirosNumeros = 0;
         multiplicado = 10
@@ -31,7 +31,6 @@ function validaCpf(){
             alert("Valido");
         }else{
             alert("invalido");
-
         }
 
         return multiplicado;
